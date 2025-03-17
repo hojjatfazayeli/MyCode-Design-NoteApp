@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>MyCode-Design-NoteApp</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header-title">My Notes (1)</h1>
+        <select name="" id="" class="header-sort">
+            <option value="latest" class="header-sort_item">Sort based on latest notes</option>
+            <option value="earliest" class="header-sort_item">Sort based on earliest notes</option>
+            <option value="completed" class="header-sort_item">Sort based on completed notes</option>
+        </select>
+    </header>
+    <div class="header-line"></div>
+    <div class="note-system">
+        <section class="note-system_add">
+            <h2 class="note-system_add-title">Add New Note</h2>
+            <form action="#" class="note-system_form">
+                <input type="text" class="note-system_form-title" placeholder="Note title">
+                <input type="text" class="note-system_form-description" placeholder="Note description">
+                <input type="submit" class="note-system_form-submit" value="Add New Note">
+            </form>
+        </section>
+        <section class="note-system_content">
+            <ul class="note-system_status-list">
+                <li class="note-system_status-item">All <span class="note-system_status-badge">1</span></li>
+                <li class="note-system_status-item">Completed <span class="note-system_status-badge">0</span></li>
+                <li class="note-system_status-item">Open <span class="note-system_status-badge">1</span></li>
+            </ul>
+            <section class="notes-list">
+                <div class="note-list_item">
+                    <h3 class="note-list_item-title">Hello</h3>
+                    <div class="note-list_item-info">
+                        <p class="note-list_item-description">Hello Hojjat</p>
+                        <div class="note-list_item-features">
+                            <span class="note-list_item-delete">❌</span>
+                            <input type="checkbox" class="note-list_item-check">
+                        </div>
+                    </div>
+                    <div class="note-list_item-date">March 16, 2025</div>
+                </div>
+            </section>
+        </section>
+    </div>
+</body>
+</html>
